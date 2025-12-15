@@ -45,7 +45,7 @@ android {
 dependencies {
     
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
-    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-auth")
 
     implementation("com.google.firebase:firebase-crashlytics-ktx:19.4.4")
     implementation("com.google.firebase:firebase-analytics-ktx:22.5.0")
